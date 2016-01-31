@@ -21,13 +21,12 @@ public class CharacterMove : MonoBehaviour {
         //sphereOne.MovePosition(Vector3.right * speed * Input.GetAxis("Horizontal"));
         //sphereTwo.MovePosition(Vector3.right * speed * Input.GetAxis("Horizontal") * -1);
 
-        /*
+        
         float deltaY = Mathf.Abs(sphereOne.transform.position.y - sphereTwo.transform.position.y);
         float meanY = (sphereOne.transform.position.y + sphereTwo.transform.position.y) / 2;
 
         Camera.main.transform.localPosition = new Vector3(0,
             Mathf.Lerp(Camera.main.transform.localPosition.y, meanY, Time.deltaTime * cameraSpeed), 
             Mathf.Lerp(Camera.main.transform.localPosition.z, Mathf.Min(30, (deltaY - 30) * (-1.5f)), Time.deltaTime * cameraSpeed));
-            */
     }
 }

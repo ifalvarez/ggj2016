@@ -15,6 +15,7 @@ public class ArcReactorDemo5_rotation : MonoBehaviour {
 	{
         //transform.Rotate ( Vector3.forward * ( rotationSpeed * Time.deltaTime * Input.GetAxis("Vertical")) );
         //GetComponent<Rigidbody>().angularVelocity = new Vector3(0, rotationSpeed, 0); 
-        GetComponent<Rigidbody>().velocity = new Vector3(rotationSpeed, 0, 0);
+        //GetComponent<Rigidbody>().velocity = new Vector3(rotationSpeed, 0, 0);
+        transform.Translate(Vector3.right * rotationSpeed * Time.deltaTime);
     }
 }
