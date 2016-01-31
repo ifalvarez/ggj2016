@@ -8,6 +8,8 @@ public class Collectable : MonoBehaviour {
     public float respawnTime;
     public string floatingText;
     public Color floatingTextColor;
+    public AudioClip sfx;
+    public AudioSource sfxAudioSourcePrefab;
 
     private Collider trigger;
 
@@ -25,6 +27,10 @@ public class Collectable : MonoBehaviour {
             FloatingTextManager.Instance
                 .Display(floatingText, Camera.main.WorldToScreenPoint(transform.position))
                 .SetColor(floatingTextColor);
+            AudioSource newSfxAudioSource = Instantiate(sfxAudioSourcePrefab);
+            newSfxAudioSource.clip = sfx;
+            newSfxAudioSource.Play();
+            Destroy(newSfxAudioSource, newSfxAudioSource.clip.length);
             Destroy(gameObject);
         }
     }

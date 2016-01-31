@@ -8,6 +8,10 @@ public class Quest : MonoBehaviour{
     public bool isComplete;
     public delegate void QuestCompletion();
     public event QuestCompletion OnQuestCompletion;
+    public delegate void StaticQuestCompletion(Quest quest);
+    public static event StaticQuestCompletion OnStaticQuestCompletion;
+
+
 
     void Start() {
         QuestManager.Instance.quests.Add(this);
@@ -30,6 +34,8 @@ public class Quest : MonoBehaviour{
                 isComplete = true;
                 if (OnQuestCompletion != null)
                     OnQuestCompletion();
+                if (OnStaticQuestCompletion != null)
+                    OnStaticQuestCompletion(this);
             }
         }
     }
