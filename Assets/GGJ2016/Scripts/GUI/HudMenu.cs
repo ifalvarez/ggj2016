@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class HudMenu : Menu {
 
-    public override bool CanBeClosed()
-    {
-        return SceneManager.GetActiveScene().name == "Start";
+    new void Start() {
+        base.Start();
+        Open();
     }
 }

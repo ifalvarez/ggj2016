@@ -31,7 +31,7 @@ public class CountQuestObjective : QuestObjective{
 
     public override string getDescription()
     {
-        return string.Format("{0}: <color=orange>{1}/{2}</color>", description, CurrentCount, targetCount);
+        return string.Format("{0}: <color=green>{1}/{2}</color>", description, CurrentCount, targetCount);
     }
 
     public void AddCount(int value)

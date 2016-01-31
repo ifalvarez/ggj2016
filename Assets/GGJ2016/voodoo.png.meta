@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: 44c75fcabc1ea1946b5b36e26d6bb898
+timeCreated: 1454197776
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: voodoo_0
+    21300002: voodoo_1
+    21300004: voodoo_2
+    21300006: voodoo_3
+    21300008: voodoo_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: voodoo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 26
+        height: 29
+      alignment: 9
+      pivot: {x: 0.8045687, y: 0.82294804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: voodoo_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 95
+        width: 26
+        height: 33
+      alignment: 9
+      pivot: {x: 0.693284, y: 0.7976467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: voodoo_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 21
+        height: 33
+      alignment: 9
+      pivot: {x: 0.3912254, y: 0.77457345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: voodoo_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 95
+        width: 25
+        height: 33
+      alignment: 9
+      pivot: {x: 0.2837561, y: 0.8161055}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: voodoo_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 60
+        width: 37
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 34}
+        - {x: -18.5, y: 33}
+        - {x: -18.5, y: -32}
+        - {x: -15.5, y: -34}
+        - {x: 18.5, y: -34}
+        - {x: 18.5, y: 34}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
