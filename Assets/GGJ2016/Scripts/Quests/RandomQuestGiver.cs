@@ -28,7 +28,7 @@ public class RandomQuestGiver : MonoBehaviour {
         // Pick and start a random quest
         if(availableQuestsNotGiven.Count > 0)
         {
-            int index = Random.Range(0, availableQuests.Length - 1);
+            int index = Random.Range(0, availableQuestsNotGiven.Count);
             Quest questPrefab = availableQuestsNotGiven[index];
             availableQuestsNotGiven.RemoveAt(index);
 
