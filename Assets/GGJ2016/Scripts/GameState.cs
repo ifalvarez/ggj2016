@@ -6,7 +6,7 @@ public class GameState : Singleton<GameState> {
 	void Start()
     {
         SceneManager.LoadScene("UI", LoadSceneMode.Additive);
-        //SceneManager.LoadScene("Quests", LoadSceneMode.Additive);
+        SceneManager.LoadScene("Quests", LoadSceneMode.Additive);
     }
 
     public void ExitGame()

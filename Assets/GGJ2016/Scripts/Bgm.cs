@@ -13,6 +13,10 @@ public class Bgm : MonoBehaviour {
 	}
 	
 	void Update () {
-	
+        if (!audioSource.isPlaying)
+        {
+            audioSource.clip = bgms[Random.Range(0, bgms.Length)];
+            audioSource.Play();
+        }
 	}
 }

@@ -8,6 +8,7 @@ public class StartMenu : Menu {
     {
         base.Start();
         Open();
+        Invoke("OpenHud", 1f);
     }
 
     public void Exit() {
@@ -16,6 +17,12 @@ public class StartMenu : Menu {
 
     public override bool CanBeClosed()
     {
-        return SceneManager.GetActiveScene().name != "Start";
+        return false;
     }
+
+    void OpenHud()
+    {
+        MenuManager.Instance.OpenMenu("HudMenu");
+    }
+
 }
